@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{859052fd-f714-44c8-b775-2fff00f598cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{04566155-c853-476e-8f1e-abd746561858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Main Loop">
+      <UniqueIdentifier>{63e73468-8527-4d4d-a1b7-755d08fd7280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;">
+      <UniqueIdentifier>{5ae13ccb-e538-459c-9ded-6fd39fbe447e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Open GL Graphics">
+      <UniqueIdentifier>{81aa51bd-73f6-4698-9058-1b1d7e2add84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Open GL Graphics\GL Engine Base">
+      <UniqueIdentifier>{de35abd2-0664-4ff1-b252-388f5940dc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Open GL Graphics\GL Engine Base\core">
+      <UniqueIdentifier>{6d7d4754-96b6-4393-b917-0dda47739d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Open GL Graphics\GL Engine Base\inc">
+      <UniqueIdentifier>{42da8937-c864-4459-a947-5e5d1b1b59a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Objects/Items System">
+      <UniqueIdentifier>{41700170-83da-4875-a673-fe7a98ec91cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\UI System">
+      <UniqueIdentifier>{89d0f9be-e735-4dda-b20e-4ac1dcf6170e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Window">
+      <UniqueIdentifier>{a16241da-36ef-45fc-9df4-5d42774e5c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Window\Windows">
+      <UniqueIdentifier>{a0d5ace2-20fd-451e-babd-cc98bc64bf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Window\Windows\core">
+      <UniqueIdentifier>{80564476-c4fc-4c4d-8d49-02b0cc1ff320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine&quot;Altar&quot;\Window\Windows\inc">
+      <UniqueIdentifier>{443756e0-5d98-4bcd-9636-1d216ea1f97c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGL_Base.h">
+      <Filter>Source Files\Engine"Altar"\Open GL Graphics\GL Engine Base\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="window_win.h">
+      <Filter>Source Files\Engine"Altar"\Window\Windows\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL_Base.cpp">
+      <Filter>Source Files\Engine"Altar"\Open GL Graphics\GL Engine Base\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Game\Main Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="window_win.cpp">
+      <Filter>Source Files\Engine"Altar"\Window\Windows\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
